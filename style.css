@@ -4,7 +4,7 @@ body{
     font-family:monospace;
     background-color: #FF0054;
     color:#9E0059;
-    margin: 0;
+    margin: 0;}
 
 header{
     background-color:#FF5400;
@@ -16,5 +16,4 @@ header{
 img{
     border-radius: 50%;
     border: 5px solid white;
-}
 }
