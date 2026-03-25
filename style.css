@@ -1,13 +1,13 @@
 
-h1{color:#390099}
+h1{color:#03045e}
 body{
     font-family:monospace;
-    background-color: #FF0054;
-    color:#9E0059;
+    background-color: #90e0ef;
+    color:#03045e;
     margin: 0;}
 
 header{
-    background-color:#FF5400;
+    background-color:#caf0f8;
     color:white;
     text-align: center;
     padding: 20px;
@@ -16,4 +16,28 @@ header{
 img{
     border-radius: 50%;
     border: 5px solid white;
+}
+nav{
+display:flex;
+justify-content: space-between;
+align-items: center;
+padding:1rem 2rem
+background: #001D3D
+}
+.nav-links{
+    display:flex;
+    gap: 20px;
+    list-style: none;
+}
+
+.project-grid{
+display: flex;
+justify-content: center;
+gap: 20px;
+flex-wrap: wrap;
+}
+.card{
+    border: 1px solid black;
+    padding: 20px;
+    width: 30%;
 }
